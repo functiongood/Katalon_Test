@@ -16,7 +16,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('http://192.168.1.13/sfw/login.jsp')
+WebUI.navigateToUrl('http://192.168.1.22/sfw/login.jsp')
 
 WebUI.setViewPortSize(1366, 768)
 
@@ -36,13 +36,13 @@ WebUI.click(findTestObject('22_Test/page_purchase_request/Comm/app_type/new_app'
 
 WebUI.click(findTestObject('22_Test/page_purchase_request/Comm/redme_text/button_have_read'))
 
-WebUI.click(findTestObject('22_Test/page_purchase_request/Submit_Purchas_Application/1 Select_Purchase_Type/1_Furniture_Software'))
+WebUI.click(findTestObject('22_Test/page_purchase_request/Submit_Purchas_Application/1_Furniture_Software/0_Furniture_Software'))
 
-WebUI.click(findTestObject('22_Test/tree/1_Furniture_Software/2_Disperse_Purchase/0_Disperse_Purchase'))
+WebUI.click(findTestObject('22_Test/page_purchase_request/Submit_Purchas_Application/1_Furniture_Software/2_Disperse_Purchase/0_Disperse_Purchase'))
 
-WebUI.click(findTestObject('22_Test/page_purchase_request/Submit_Purchas_Application/3 Select_Moneypurchase/1_Furniture_Software/1_2_Disperse_Purchase/2_EQ-50000_LT-100000'))
+WebUI.click(findTestObject('22_Test/page_purchase_request/Submit_Purchas_Application/1_Furniture_Software/2_Disperse_Purchase/2_EQ-50000_LT-100000/0_EQ-50000_LT-100000'))
 
-WebUI.click(findTestObject('22_Test/page_purchase_request/Submit_Purchas_Application/4 Select_Procurement_Method/purchase_choose_self-buying'))
+WebUI.click(findTestObject('22_Test/page_purchase_request/Submit_Purchas_Application/1_Furniture_Software/2_Disperse_Purchase/2_EQ-50000_LT-100000/3_ Purchase_Record/3_ Purchase_Record'))
 
 WebUI.click(findTestObject('22_Test/page_purchase_request/Next_Save/entrance_next/entrance_next_button'))
 
@@ -76,6 +76,8 @@ WebUI.verifyElementVisibleInViewport(findTestObject('22_Test/page_purchase_reque
     0)
 
 WebUI.click(findTestObject('22_Test/page_purchase_request/Page_Materials/Materials_Directory/Select_Directory_Button'))
+
+WebUI.click(findTestObject('22_Test/page_purchase_request/Page_Submit/Submit_Hint/Submit_Hint_Button'))
 
 WebUI.delay(1)
 
