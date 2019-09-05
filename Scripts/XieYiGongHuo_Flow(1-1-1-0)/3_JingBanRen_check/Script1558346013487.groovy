@@ -25,7 +25,7 @@ WebUI.setText(findTestObject('22_Test/Page_22_login/input__password22'), findTes
 
 WebUI.click(findTestObject('22_Test/Page_22_login/button_22_login'))
 
-WebUI.click(findTestObject('22_Test/page_purchase_request/Comm/close_hint_button'))
+WebUI.click(findTestObject('22_Test/page_purchase_request/0_Comm/close_hint_button'))
 
 WebUI.click(findTestObject('22_Test/Page_check/comm/daishen_button'))
 
