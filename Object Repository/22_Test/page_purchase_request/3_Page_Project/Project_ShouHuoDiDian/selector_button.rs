@@ -3,11 +3,11 @@
    <description></description>
    <name>selector_button</name>
    <tag></tag>
-   <elementGuidId>a9e6926e-4c2e-441b-9f02-b3475697f4e2</elementGuidId>
+   <elementGuidId>e6a62d20-2612-4d1b-a29f-9dff7ae00dfb</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(//input[@value=''])[10]</value>
+         <value>(//input[@value=''])[11]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -45,14 +45,14 @@
       <matchCondition>equals</matchCondition>
       <name>data-sfwname</name>
       <type>Main</type>
-      <value>payWay</value>
+      <value>receiveAddress</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>action</name>
       <type>Main</type>
-      <value>psms.apply.personal.apply.autocompleteFKFS</value>
+      <value>psms.apply.personal.apply.autocompleteSHDZ</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -73,14 +73,14 @@
       <matchCondition>equals</matchCondition>
       <name>textfield</name>
       <type>Main</type>
-      <value>$[name]</value>
+      <value>$[receiveAddress]</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>valuefield</name>
       <type>Main</type>
-      <value>$[name]</value>
+      <value>$[receiveAddress]</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -109,6 +109,13 @@
       <name>cols</name>
       <type>Main</type>
       <value>2</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>maxlength</name>
+      <type>Main</type>
+      <value>80</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -143,55 +150,48 @@
       <matchCondition>equals</matchCondition>
       <name>ref_element</name>
       <type>Main</type>
-      <value>Object Repository/22_Test/page_purchase_request/3_Page_Project/Project_information_payment_method_choose/iframe__tab_panel_frame_1</value>
+      <value>Object Repository/22_Test/page_purchase_request/3_Page_Project/Project_ShouHuoDiDian/iframe__tab_panel_frame_1</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>(//input[@value=''])[10]</value>
+      <value>(//input[@value=''])[11]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//form[@id='applyAdd']/div/div[10]/div/div/div/input</value>
+      <value>//form[@id='applyAdd']/div/div[15]/div/div/div/input</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='付款方式'])[1]/following::input[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[5]/following::input[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='期望挂网天数'])[1]/following::input[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='代管代购'])[1]/preceding::input[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='科研急需'])[1]/preceding::input[2]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='是'])[6]/preceding::input[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='委托机构所有权'])[2]/preceding::input[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[10]/div/div/div/input</value>
+      <value>//div[15]/div/div/div/input</value>
    </webElementXpaths>
 </WebElementEntity>

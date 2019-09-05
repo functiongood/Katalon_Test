@@ -68,6 +68,13 @@
       <type>Main</type>
       <value>id(&quot;tab_panel_frame_2&quot;)</value>
    </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/22_Test/page_purchase_request/2_Next_Save/Comm_Frame/iframe_4001010335-3_1567652368662</value>
+   </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>

@@ -66,7 +66,7 @@
       <matchCondition>equals</matchCondition>
       <name>ref_element</name>
       <type>Main</type>
-      <value>Object Repository/22_Test/page_purchase_request/4_Page_Materials/Materials_Name/iframe_V538_assets_index_mainContent</value>
+      <value>Object Repository/22_Test/page_purchase_request/4_Page_Materials/0_Comm_Frame/iframe_4001010335-3_1567664885383</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

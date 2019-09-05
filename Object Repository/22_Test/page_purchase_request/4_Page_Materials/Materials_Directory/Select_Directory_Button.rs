@@ -3,24 +3,17 @@
    <description></description>
    <name>Select_Directory_Button</name>
    <tag></tag>
-   <elementGuidId>3b19d82f-58b5-4fd0-85e1-4c49c8d28ee8</elementGuidId>
+   <elementGuidId>29fe0768-3a2d-4b69-b910-67ee84b7b8f7</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//*[@id=&quot;slideId&quot;]/div[1]/div[1]/div/div/a</value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>//a[@href = 'javascript:void(0);' and (text() = '选择' or . = '选择') and @ref_element = 'Object Repository/Materials_Select_Directory/iframe__tab_panel_frame_2']</value>
-      </entry>
-      <entry>
-         <key>CSS</key>
+         <value>//a[@onclick=&quot;selectCatalog('A','XYGH','A0103')&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
@@ -45,7 +38,7 @@
       <matchCondition>equals</matchCondition>
       <name>onclick</name>
       <type>Main</type>
-      <value>selectCatalog('A','BMBA','A020203')</value>
+      <value>selectCatalog('A','XYGH','A0103')</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -59,7 +52,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;slideId&quot;)/div[@class=&quot;row&quot;]/div[@class=&quot;col-lg-3 col-md-6 col-sm-6 col-xs-12&quot;]/div[@class=&quot;form-element-group  select-link&quot;]/div[@class=&quot;form-element&quot;]/a[@class=&quot;linklabel&quot;]</value>
+      <value>id(&quot;slideId&quot;)/div[@class=&quot;row md-two-row&quot;]/div[@class=&quot;col-lg-6 col-md-12 col-sm-12 col-xs-12&quot;]/div[@class=&quot;form-element-group  select-link&quot;]/div[@class=&quot;form-element&quot;]/a[@class=&quot;linklabel&quot;]</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -73,7 +66,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//a[@onclick=&quot;selectCatalog('A','BMBA','A020203')&quot;]</value>
+      <value>//a[@onclick=&quot;selectCatalog('A','XYGH','A0103')&quot;]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -122,6 +115,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//a</value>
+      <value>//div[2]/div/div/div/div/a</value>
    </webElementXpaths>
 </WebElementEntity>

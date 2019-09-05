@@ -1,44 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>iframe_V538_assets_index_mainContent</name>
+   <name>iframe_4001010335-3_1567664885383</name>
    <tag></tag>
-   <elementGuidId>7468d554-5e88-4775-99ae-b23ef3535b0b</elementGuidId>
+   <elementGuidId>2b59a5e1-3fc6-4184-82aa-6d08fd747c5f</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//iframe[@id='assets_index_mainContent']</value>
+         <value>//iframe[@id='1567664885383']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@src = 'e?page=psms.apply.personal.apply.list&amp;_pop=2010006']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>iframe</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>assets_index_mainContent</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>name</name>
-      <type>Main</type>
-      <value>assets_index_mainContent</value>
+      <value>1567664885383</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>src</name>
       <type>Main</type>
-      <value>e?page=base.usercenter</value>
+      <value>e?page=psms.apply.personal.apply.list&amp;_pop=2010006</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>group</name>
+      <type>Main</type>
+      <value>个人</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -57,57 +61,57 @@
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>cd_frame_id_</name>
-      <type>Main</type>
-      <value>883be86cc859340378119ee9d0f462bc</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;assets_index_mainContent&quot;)</value>
+      <value>id(&quot;1567664885383&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//iframe[@id='assets_index_mainContent']</value>
+      <value>//iframe[@id='1567664885383']</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='iframe_content']/iframe[3]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='V5.3.8'])[1]/following::iframe[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='技术支持：4001010335-3'])[1]/following::iframe[3]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='如果您重复遇到该错误信息，请联系技术支持：4001010335-3'])[1]/following::iframe[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='相关系统入口'])[1]/following::iframe[3]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Capture object:'])[1]/preceding::iframe[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='!'])[1]/preceding::iframe[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Alt'])[1]/preceding::iframe[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='i'])[1]/preceding::iframe[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//iframe</value>
+      <value>//iframe[3]</value>
    </webElementXpaths>
 </WebElementEntity>

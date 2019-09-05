@@ -49,17 +49,17 @@ WebUI.click(findTestObject('22_Test/page_purchase_request/2_Next_Save/1_Entrance
 WebUI.setText(findTestObject('22_Test/page_purchase_request/3_Page_Project/Project_information_edit/1-2-2-3project_name'), findTestData(
         'project_name').getValue(1, 1))
 
-WebUI.click(findTestObject('22_Test/page_purchase_request/3_Page_Project/Project_information_payment_method_choose/selector_button'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('22_Test/page_purchase_request/3_Page_Project/Project_information_payment_method_choose/pay_on_delivery'))
+WebUI.click(findTestObject('null'))
 
 WebUI.click(findTestObject('22_Test/page_purchase_request/3_Page_Project/Project_information_days_choose/span__caret'))
 
 WebUI.click(findTestObject('22_Test/page_purchase_request/3_Page_Project/Project_information_days_choose/4days'))
 
-WebUI.click(findTestObject('22_Test/page_purchase_request/3_Page_Project/Project_ShouHuoDiDian/ShouHuoDiDian_click'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('22_Test/page_purchase_request/3_Page_Project/Project_ShouHuoDiDian/ShouHuoDiDian_select'))
+WebUI.click(findTestObject('null'))
 
 WebUI.delay(1)
 
@@ -72,10 +72,10 @@ WebUI.click(findTestObject('22_Test/page_purchase_request/3_Page_Project/Project
 
 WebUI.click(findTestObject('22_Test/page_purchase_request/2_Next_Save/2_Project_Next_button/Project_Next_button'))
 
-WebUI.verifyElementVisibleInViewport(findTestObject('22_Test/page_purchase_request/4_Page_Materials/Materials_Directory/Select_Directory_Button'), 
+WebUI.verifyElementVisibleInViewport(findTestObject('null'), 
     0)
 
-WebUI.click(findTestObject('22_Test/page_purchase_request/4_Page_Materials/Materials_Directory/Select_Directory_Button'))
+WebUI.click(findTestObject('null'))
 
 WebUI.click(findTestObject('22_Test/page_purchase_request/6_Page_Submit/Submit_Hint/Submit_Hint_Button'))
 
@@ -111,9 +111,9 @@ WebUI.setText(findTestObject('22_Test/page_purchase_request/4_Page_Materials/Mat
 
 WebUI.click(findTestObject('22_Test/page_purchase_request/2_Next_Save/3_Materials_Next_Button/Materials_Next_Button'))
 
-WebUI.verifyElementVisible(findTestObject('22_Test/page_purchase_request/5_Page_Money/Money_Select/Money_Select'), FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementVisible(findTestObject('null'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('22_Test/page_purchase_request/5_Page_Money/Money_Select/Money_Select'))
+WebUI.click(findTestObject('null'))
 
 WebUI.click(findTestObject('22_Test/page_purchase_request/2_Next_Save/4_Money_Next_Button/Money_Next_Button'))
 

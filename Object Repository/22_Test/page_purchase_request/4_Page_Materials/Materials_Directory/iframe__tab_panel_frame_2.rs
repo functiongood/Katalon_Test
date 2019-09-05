@@ -3,7 +3,7 @@
    <description></description>
    <name>iframe__tab_panel_frame_2</name>
    <tag></tag>
-   <elementGuidId>a399d02b-d168-4a92-b9a2-916f15eb462a</elementGuidId>
+   <elementGuidId>02abaf3a-8ec1-4ef5-93cc-1c4e2c65766b</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -13,7 +13,7 @@
    <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
@@ -31,14 +31,14 @@
       <matchCondition>equals</matchCondition>
       <name>data-initsrc</name>
       <type>Main</type>
-      <value>e?page=psms.apply.personal.apply.requestItem&amp;applyId=a611aec533a1c336fa20b573cb1e2ac2&amp;addNew=true</value>
+      <value>e?page=psms.apply.personal.apply.requestItem&amp;applyId=bec62d6a064b30692a9385ad7b4920a6&amp;addNew=true</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>src</name>
       <type>Main</type>
-      <value>e?page=psms.apply.personal.apply.requestItem&amp;applyId=a611aec533a1c336fa20b573cb1e2ac2&amp;addNew=true</value>
+      <value>e?page=psms.apply.personal.apply.requestItem&amp;applyId=bec62d6a064b30692a9385ad7b4920a6&amp;addNew=true</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -66,7 +66,7 @@
       <matchCondition>equals</matchCondition>
       <name>ref_element</name>
       <type>Main</type>
-      <value>Object Repository/22_Test/page_purchase_request/4_Page_Materials/Materials_Directory/iframe_V538_assets_index_mainContent</value>
+      <value>Object Repository/22_Test/page_purchase_request/4_Page_Materials/0_Comm_Frame/iframe_4001010335-3_1567664885383</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -81,6 +81,20 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>(//fieldset[@id='steps-uid-0-p-0']/iframe)[3]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='申购须知'])[1]/following::iframe[3]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='确认提交信息'])[1]/following::iframe[3]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

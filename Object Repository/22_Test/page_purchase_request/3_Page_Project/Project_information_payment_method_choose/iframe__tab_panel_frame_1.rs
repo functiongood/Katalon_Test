@@ -3,7 +3,7 @@
    <description></description>
    <name>iframe__tab_panel_frame_1</name>
    <tag></tag>
-   <elementGuidId>ffbb9250-b849-443e-8179-77a266af1df6</elementGuidId>
+   <elementGuidId>aa232a98-9269-46e7-ae53-839c67ac3a22</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -13,7 +13,7 @@
    <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
@@ -38,7 +38,7 @@
       <matchCondition>equals</matchCondition>
       <name>src</name>
       <type>Main</type>
-      <value>e?page=psms.apply.personal.apply.requestApply&amp;applyId=&amp;applyEntryId=A020203</value>
+      <value>e?page=psms.apply.personal.apply.requestApply&amp;applyId=&amp;applyEntryId=A0103</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,13 +53,6 @@
       <name>frameborder</name>
       <type>Main</type>
       <value>0</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>cd_frame_id_</name>
-      <type>Main</type>
-      <value>07dc17c465f25499126999461f91c14f</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -88,6 +81,20 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>(//fieldset[@id='steps-uid-0-p-0']/iframe)[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='申购须知'])[1]/following::iframe[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='确认提交信息'])[1]/following::iframe[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

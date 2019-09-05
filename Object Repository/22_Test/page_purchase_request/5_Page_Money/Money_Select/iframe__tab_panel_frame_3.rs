@@ -3,7 +3,7 @@
    <description></description>
    <name>iframe__tab_panel_frame_3</name>
    <tag></tag>
-   <elementGuidId>41e9d057-032e-454d-9cbc-26d0d08d93e8</elementGuidId>
+   <elementGuidId>0c08bb69-ca79-42e2-a644-5c3614e85548</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -13,7 +13,7 @@
    <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
@@ -31,14 +31,14 @@
       <matchCondition>equals</matchCondition>
       <name>data-initsrc</name>
       <type>Main</type>
-      <value>e?page=psms.apply.personal.apply.requestAccount&amp;applyId=b5e60939834746b3d8a1b76f9b7d1869</value>
+      <value>e?page=psms.apply.personal.apply.requestAccount&amp;applyId=8b1f3a5366c288e01d74193d867d3181</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>src</name>
       <type>Main</type>
-      <value>e?page=psms.apply.personal.apply.requestAccount&amp;applyId=b5e60939834746b3d8a1b76f9b7d1869&amp;applyEntryId=null</value>
+      <value>e?page=psms.apply.personal.apply.requestAccount&amp;applyId=8b1f3a5366c288e01d74193d867d3181</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -66,7 +66,7 @@
       <matchCondition>equals</matchCondition>
       <name>ref_element</name>
       <type>Main</type>
-      <value>Object Repository/22_Test/page_purchase_request/5_Page_Money/Money_Select/iframe_V538_assets_index_mainContent</value>
+      <value>Object Repository/22_Test/page_purchase_request/5_Page_Money/Money_Select/iframe_4001010335-3_1567666250260</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -81,6 +81,20 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>(//fieldset[@id='steps-uid-0-p-0']/iframe)[4]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='申购须知'])[1]/following::iframe[4]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='确认提交信息'])[1]/following::iframe[4]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

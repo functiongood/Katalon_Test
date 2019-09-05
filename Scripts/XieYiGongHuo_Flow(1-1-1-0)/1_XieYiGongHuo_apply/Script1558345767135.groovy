@@ -46,33 +46,24 @@ WebUI.click(findTestObject('22_Test/page_purchase_request/1_Submit_Purchas_Appli
 
 WebUI.click(findTestObject('22_Test/page_purchase_request/2_Next_Save/1_Entrance_next/entrance_next_button'))
 
-WebUI.setText(findTestObject('22_Test/page_purchase_request/3_Page_Project/Project_information_edit/1-1-1-0input_name'), findTestData(
-        'project_name').getValue(1, 3))
+WebUI.setText(findTestObject('22_Test/page_purchase_request/3_Page_Project/Project_information_edit/1-1-1-0input_name'), 
+    findTestData('project_name').getValue(1, 3))
 
 WebUI.click(findTestObject('22_Test/page_purchase_request/3_Page_Project/Project_information_payment_method_choose/selector_button'))
 
 WebUI.click(findTestObject('22_Test/page_purchase_request/3_Page_Project/Project_information_payment_method_choose/pay_on_delivery'))
 
-WebUI.click(findTestObject('22_Test/page_purchase_request/3_Page_Project/Project_information_days_choose/span__caret'))
+WebUI.click(findTestObject('22_Test/page_purchase_request/3_Page_Project/Project_ShouHuoDiDian/selector_button'))
 
-WebUI.click(findTestObject('22_Test/page_purchase_request/3_Page_Project/Project_information_days_choose/4days'))
+WebUI.click(findTestObject('22_Test/page_purchase_request/3_Page_Project/Project_ShouHuoDiDian/kehuabeilu'))
 
-WebUI.click(findTestObject('22_Test/page_purchase_request/3_Page_Project/Project_ShouHuoDiDian/ShouHuoDiDian_click'))
-
-WebUI.click(findTestObject('22_Test/page_purchase_request/3_Page_Project/Project_ShouHuoDiDian/ShouHuoDiDian_select'))
-
-WebUI.click(findTestObject('22_Test/page_purchase_request/3_Page_Project/Project_Supplier_Qualification/Add_Supplier_Qualification'))
-
-WebUI.click(findTestObject('22_Test/page_purchase_request/3_Page_Project/Project_Supplier_Qualification/input'))
-
-WebUI.click(findTestObject('22_Test/page_purchase_request/3_Page_Project/Project_Supplier_Qualification/button_Supplier_Qualification'))
-
-WebUI.setText(findTestObject('22_Test/page_purchase_request/3_Page_Project/Project_ShenGouLiYou/Set_text_ShenGouLiYou'), '理由')
+WebUI.setText(findTestObject('22_Test/page_purchase_request/3_Page_Project/Project_ShenGouLiYou/Set_text_ShenGouLiYou'), 
+    '理由')
 
 WebUI.click(findTestObject('22_Test/page_purchase_request/2_Next_Save/2_Project_Next_button/Project_Next_button'))
 
-WebUI.verifyElementVisibleInViewport(findTestObject('22_Test/page_purchase_request/4_Page_Materials/Materials_Directory/Select_Directory_Button'), 
-    0)
+WebUI.verifyElementVisible(findTestObject('22_Test/page_purchase_request/4_Page_Materials/Materials_Directory/Select_Directory_Button'), 
+    FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('22_Test/page_purchase_request/4_Page_Materials/Materials_Directory/Select_Directory_Button'))
 
