@@ -18,7 +18,7 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://192.168.1.13:8078/sfw/login.jsp?entryId=1')
 
-WebUI.setViewPortSize(1366, 768)
+WebUI.setViewPortSize(1920, 1080)
 
 WebUI.setText(findTestObject('22_Test/Page_22_login/input__userid22'), findTestData('username_password').getValue(1, 1))
 
@@ -34,9 +34,10 @@ WebUI.click(findTestObject('22_Test/page_purchase_request/0_Comm/person_submit_a
 
 WebUI.click(findTestObject('22_Test/page_purchase_request/0_Comm/person_submit_app/submit_new_purchase'))
 
-WebUI.click(findTestObject('22_Test/page_purchase_request/0_Comm/redme_text/button_have_read'))
-
+//WebUI.click(findTestObject('22_Test/page_purchase_request/0_Comm/redme_text/button_have_read'))
 WebUI.click(findTestObject('22_Test/page_purchase_request/1_Submit_Purchas_Application/1_Furniture_Software/0_Furniture_Software'))
+
+WebUI.click(findTestObject('22_Test/page_purchase_request/6_Page_Submit/Submit_Hint/Submit_Hint_Button'))
 
 WebUI.click(findTestObject('22_Test/page_purchase_request/1_Submit_Purchas_Application/1_Furniture_Software/1_Government_Purchase/0_Government_Purchase'))
 
@@ -44,7 +45,11 @@ WebUI.click(findTestObject('22_Test/page_purchase_request/6_Page_Submit/Submit_H
 
 WebUI.click(findTestObject('22_Test/page_purchase_request/1_Submit_Purchas_Application/1_Furniture_Software/1_Government_Purchase/1_Supply_Agreement/1_Supply_Agreement'))
 
+WebUI.click(findTestObject('22_Test/page_purchase_request/6_Page_Submit/Submit_Hint/Submit_Hint_Button'))
+
 WebUI.click(findTestObject('22_Test/page_purchase_request/1_Submit_Purchas_Application/1_Furniture_Software/1_Government_Purchase/2_Enquiry/2_Enquiry'))
+
+WebUI.click(findTestObject('22_Test/page_purchase_request/6_Page_Submit/Submit_Hint/Submit_Hint_Button'))
 
 WebUI.click(findTestObject('22_Test/page_purchase_request/1_Submit_Purchas_Application/1_Furniture_Software/1_Government_Purchase/3_Online_Bidding/3_Online_Bidding'))
 

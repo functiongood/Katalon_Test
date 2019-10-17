@@ -3,7 +3,7 @@
    <description></description>
    <name>input_daishen_keyword</name>
    <tag></tag>
-   <elementGuidId>287cf7e5-f7a6-410d-928a-e7bb13cb7fbd</elementGuidId>
+   <elementGuidId>b1bfbcfb-bff6-4e33-9499-bf466ca47ac1</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -13,7 +13,7 @@
    <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
@@ -52,7 +52,21 @@
       <matchCondition>equals</matchCondition>
       <name>placeholder</name>
       <type>Main</type>
-      <value>业务主题关键字</value>
+      <value>匹配：主题、业务追踪号、业务号</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>introcols</name>
+      <type>Main</type>
+      <value>1</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>hide</name>
+      <type>Main</type>
+      <value>false</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -71,23 +85,9 @@
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>scid</name>
+      <name>autocomplete</name>
       <type>Main</type>
-      <value>gY0333CSME</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>introcols</name>
-      <type>Main</type>
-      <value>1</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>hide</name>
-      <type>Main</type>
-      <value>false</value>
+      <value>off</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -108,7 +108,7 @@
       <matchCondition>equals</matchCondition>
       <name>ref_element</name>
       <type>Main</type>
-      <value>Object Repository/22_Test/Page_check/comm/daishen_keyword/iframe_V538_assets_index_mainContent</value>
+      <value>Object Repository/22_Test/Page_check/comm/daishen_keyword/iframe_4001010335-3_1567671172201</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -116,6 +116,13 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='keyword']</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='defaultFrom']/div/div/div/div/div/input</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -129,7 +136,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='业务号'])[1]/following::input[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='待办事项'])[1]/following::input[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -150,6 +157,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div/div[2]/div/div/div/input</value>
+      <value>//div/div/div/div/div/input</value>
    </webElementXpaths>
 </WebElementEntity>

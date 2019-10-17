@@ -3,17 +3,17 @@
    <description></description>
    <name>daishen_button</name>
    <tag></tag>
-   <elementGuidId>fe69aed6-ce3f-4e3c-a9dc-206d7b09fd1b</elementGuidId>
+   <elementGuidId>3ca8f8d0-066b-4251-8eb1-a7ca735d5668</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='navbar-mobile']/ul[2]/li/a</value>
+         <value>//div[@id='navBar']/div[2]/ul[3]/li/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
@@ -24,14 +24,7 @@
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
-      <value>e?page=base.task.mine</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>target</name>
-      <type>Main</type>
-      <value>assets_index_mainContent</value>
+      <value>javascript:void(0)</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,52 +38,55 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>
-						 待办
-						待办事项
-						274
-					</value>
+      <value> 待办  1324</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;navbar-mobile&quot;)/ul[@class=&quot;nav navbar-nav navbar-right&quot;]/li[1]/a[1]</value>
+      <value>id(&quot;navBar&quot;)/div[@class=&quot;navbar-collapse collapse&quot;]/ul[@class=&quot;nav navbar-nav navbar-right&quot;]/li[@class=&quot;dropdown active&quot;]/a[1]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='navbar-mobile']/ul[2]/li/a</value>
+      <value>//div[@id='navBar']/div[2]/ul[3]/li/a</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='站点地图'])[1]/following::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='退出登录'])[1]/following::a[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='回到首页'])[1]/following::a[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='回到原账号'])[1]/following::a[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='业务'])[1]/preceding::a[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:href</name>
       <type>Main</type>
-      <value>//a[contains(@href, 'e?page=base.task.mine')]</value>
+      <value>(//a[contains(@href, 'javascript:void(0)')])[9]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//ul[2]/li/a</value>
+      <value>//ul[3]/li/a</value>
    </webElementXpaths>
 </WebElementEntity>

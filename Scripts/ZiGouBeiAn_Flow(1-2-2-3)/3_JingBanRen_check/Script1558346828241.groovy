@@ -27,21 +27,21 @@ WebUI.click(findTestObject('22_Test/Page_22_login/button_22_login'))
 
 WebUI.click(findTestObject('22_Test/page_purchase_request/0_Comm/close_hint_button'))
 
-WebUI.click(findTestObject('22_Test/Page_check/comm/daishen_button'))
+WebUI.click(findTestObject('null'))
 
-WebUI.setText(findTestObject('22_Test/Page_check/comm/daishen_keyword/input_daishen_keyword'), findTestData('project_name').getValue(
+WebUI.setText(findTestObject('null'), findTestData('project_name').getValue(
         1, 1))
 
-WebUI.click(findTestObject('22_Test/Page_check/comm/danshen_search/danshen_search_button'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('22_Test/Page_check/comm/daishen_chuli/daishen_chuli_button'))
+WebUI.click(findTestObject('null'))
 
 WebUI.switchToWindowIndex('1')
 
-WebUI.verifyElementVisible(findTestObject('22_Test/Page_check/shenpiyemian/shenpi_verify_page/Purchase_Record_Verify'), 
+WebUI.verifyElementVisible(findTestObject('null'), 
     FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementVisible(findTestObject('22_Test/Page_check/shenpiyemian/shenpi_verify_page/operator_verify'))
+WebUI.verifyElementVisible(findTestObject('null'))
 
 WebUI.click(findTestObject('22_Test/Page_check/shenpiyemian/jingbanren_Page/jingbanren_shenpi_page/jingbanren_shenpi_submit_button'))
 

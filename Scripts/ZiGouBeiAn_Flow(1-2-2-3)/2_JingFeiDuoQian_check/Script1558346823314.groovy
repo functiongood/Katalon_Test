@@ -27,14 +27,14 @@ WebUI.click(findTestObject('22_Test/Page_22_login/button_22_login'))
 
 WebUI.click(findTestObject('22_Test/page_purchase_request/0_Comm/close_hint_button'))
 
-WebUI.click(findTestObject('22_Test/Page_check/comm/daishen_button'))
+WebUI.click(findTestObject('null'))
 
-WebUI.setText(findTestObject('22_Test/Page_check/comm/daishen_keyword/input_daishen_keyword'), findTestData('project_name').getValue(
+WebUI.setText(findTestObject('null'), findTestData('project_name').getValue(
         1, 1))
 
-WebUI.click(findTestObject('22_Test/Page_check/comm/danshen_search/danshen_search_button'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('22_Test/Page_check/comm/daishen_chuli/daishen_chuli_button'))
+WebUI.click(findTestObject('null'))
 
 WebUI.switchToWindowIndex('1')
 

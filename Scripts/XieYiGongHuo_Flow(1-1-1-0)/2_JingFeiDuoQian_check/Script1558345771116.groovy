@@ -15,9 +15,7 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('http://192.168.1.22/sfw/login.jsp')
-
-WebUI.setViewPortSize(1366, 768)
+WebUI.navigateToUrl('http://192.168.1.13:8078/sfw/login.jsp?entryId=1')
 
 WebUI.setText(findTestObject('22_Test/Page_22_login/input__userid22'), findTestData('username_password').getValue(1, 1))
 
@@ -25,14 +23,13 @@ WebUI.setText(findTestObject('22_Test/Page_22_login/input__password22'), findTes
 
 WebUI.click(findTestObject('22_Test/Page_22_login/button_22_login'))
 
-WebUI.click(findTestObject('22_Test/page_purchase_request/0_Comm/close_hint_button'))
-
 WebUI.click(findTestObject('22_Test/Page_check/comm/daishen_button'))
 
-WebUI.setText(findTestObject('22_Test/Page_check/comm/daishen_keyword/input_daishen_keyword'), findTestData('project_name').getValue(
-        1, 3))
+WebUI.setText(findTestObject('22_Test/Page_check/comm/daishen_keyword/input_daishen_keyword'), GlobalVariable.ProjectValue)
 
-WebUI.click(findTestObject('22_Test/Page_check/comm/danshen_search/danshen_search_button'))
+WebUI.click(findTestObject('22_Test/Page_check/comm/daishen_keyword/danshen_search_button'))
+
+WebUI.delay(1)
 
 WebUI.click(findTestObject('22_Test/Page_check/comm/daishen_chuli/daishen_chuli_button'))
 
@@ -44,7 +41,9 @@ WebUI.click(findTestObject('22_Test/Page_check/shenpiyemian/JingFeiDuoQian_Page/
 
 WebUI.click(findTestObject('22_Test/Page_check/shenpiyemian/JingFeiDuoQian_Page/jingfei_confirm_page/jingfei_confirm_submit_button'))
 
-WebUI.delay(2)
+WebUI.delay(3)
+
+WebUI.closeWindowIndex(1)
 
 WebUI.closeBrowser(FailureHandling.STOP_ON_FAILURE)
 
