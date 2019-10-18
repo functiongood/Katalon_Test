@@ -7,6 +7,11 @@
    <GlobalVariableEntity>
       <description></description>
       <initValue>findTestData('project_name').getValue(1, 3)</initValue>
-      <name>ProjectValue</name>
+      <name>ProjectName_XieYiGongHuo</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>findTestData('project_name').getValue(1, 1)</initValue>
+      <name>ProjectName_YongHuZiGou</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

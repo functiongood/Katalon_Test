@@ -25,7 +25,7 @@ WebUI.click(findTestObject('22_Test/Page_22_login/button_22_login'))
 
 WebUI.click(findTestObject('22_Test/Page_check/comm/daishen_button'))
 
-WebUI.setText(findTestObject('22_Test/Page_check/comm/daishen_keyword/input_daishen_keyword'), GlobalVariable.ProjectValue)
+WebUI.setText(findTestObject('22_Test/Page_check/comm/daishen_keyword/input_daishen_keyword'), GlobalVariable.ProjectName_XieYiGongHuo)
 
 WebUI.click(findTestObject('22_Test/Page_check/comm/daishen_keyword/danshen_search_button'))
 

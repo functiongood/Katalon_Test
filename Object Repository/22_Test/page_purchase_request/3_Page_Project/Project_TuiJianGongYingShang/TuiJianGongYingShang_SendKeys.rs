@@ -3,17 +3,21 @@
    <description></description>
    <name>TuiJianGongYingShang_SendKeys</name>
    <tag></tag>
-   <elementGuidId>f5a237ef-9744-4a4a-833d-b224ecce999e</elementGuidId>
+   <elementGuidId>89f998b8-811a-46ca-b6a6-6aea7fc9a52b</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@type = 'text' and @placeholder = '可下拉选择或自定义输入' and @ref_element = 'Object Repository/Page_/iframe__tab_panel_frame_1']</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
-         <value>(//input[@value=''])[8]</value>
+         <value>(//input[@value=''])[13]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
@@ -52,7 +56,7 @@
       <matchCondition>equals</matchCondition>
       <name>action</name>
       <type>Main</type>
-      <value>psms.common.autocomplete.queryProvider</value>
+      <value>psms.apply.provider.queryProvider</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -60,6 +64,13 @@
       <name>class</name>
       <type>Main</type>
       <value>form-control ui-autocomplete-input ui-autocomplete-loading</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>可下拉选择或自定义输入</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -108,14 +119,14 @@
       <matchCondition>equals</matchCondition>
       <name>cols</name>
       <type>Main</type>
-      <value>1</value>
+      <value>2</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>editable</name>
       <type>Main</type>
-      <value>false</value>
+      <value>true</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -150,7 +161,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;providerDetail&quot;)/div[@class=&quot;col-lg-3 col-md-6 col-sm-6 col-xs-12&quot;]/div[@class=&quot;form-element-group&quot;]/div[@class=&quot;form-element&quot;]/div[@class=&quot;input-icon right&quot;]/input[@class=&quot;form-control ui-autocomplete-input ui-autocomplete-loading&quot;]</value>
+      <value>id(&quot;providerDetail&quot;)/div[@class=&quot;col-lg-6 col-md-12 col-sm-12 col-xs-12&quot;]/div[@class=&quot;form-element-group&quot;]/div[@class=&quot;form-element&quot;]/div[@class=&quot;input-icon right&quot;]/input[@class=&quot;form-control ui-autocomplete-input ui-autocomplete-loading&quot;]</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -164,7 +175,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>(//input[@value=''])[8]</value>
+      <value>(//input[@value=''])[13]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

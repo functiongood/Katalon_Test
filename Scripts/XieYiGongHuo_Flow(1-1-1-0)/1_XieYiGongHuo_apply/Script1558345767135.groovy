@@ -47,10 +47,10 @@ WebUI.click(findTestObject('22_Test/page_purchase_request/6_Page_Submit/Submit_H
 
 WebUI.click(findTestObject('22_Test/page_purchase_request/2_Next_Save/1_Entrance_next/entrance_next_button'))
 
-/*WebUI.setText(findTestObject('22_Test/page_purchase_request/3_Page_Project/Project_information_edit/1-1-1-0input_name'), 
+/*WebUI.setText(findTestObject('22_Test/page_purchase_request/3_Page_Project/Project_information_edit/1-1-1-0project_name'), 
     findTestData('project_name').getValue(1, 3))*/
-WebUI.setText(findTestObject('22_Test/page_purchase_request/3_Page_Project/Project_information_edit/1-1-1-0input_name'), 
-    GlobalVariable.ProjectValue)
+WebUI.setText(findTestObject('22_Test/page_purchase_request/3_Page_Project/Project_information_edit/1-1-1-0project_name'), 
+    GlobalVariable.ProjectName_XieYiGongHuo)
 
 WebUI.click(findTestObject('22_Test/page_purchase_request/3_Page_Project/Project_information_payment_method_choose/selector_button'))
 
@@ -66,7 +66,7 @@ WebUI.setText(findTestObject('22_Test/page_purchase_request/3_Page_Project/Proje
 WebUI.click(findTestObject('22_Test/page_purchase_request/2_Next_Save/2_Project_Next_button/Project_Next_button'))
 
 WebUI.verifyElementVisibleInViewport(findTestObject('22_Test/page_purchase_request/4_Page_Materials/Materials_Directory/Select_Directory_Button'), 
-    1)
+    10)
 
 WebUI.click(findTestObject('22_Test/page_purchase_request/4_Page_Materials/Materials_Directory/Select_Directory_Button'))
 
@@ -77,7 +77,7 @@ WebUI.click(findTestObject('22_Test/page_purchase_request/4_Page_Materials/Mater
 /*WebUI.setText(findTestObject('22_Test/page_purchase_request/4_Page_Materials/Materials_Name/1-1-1-0Input_Materials_Name'), 
     findTestData('project_name').getValue(1, 3))*/
 WebUI.setText(findTestObject('22_Test/page_purchase_request/4_Page_Materials/Materials_Name/1-1-1-0Input_Materials_Name'), 
-    GlobalVariable.ProjectValue)
+    GlobalVariable.ProjectName_XieYiGongHuo)
 
 WebUI.setText(findTestObject('22_Test/page_purchase_request/4_Page_Materials/Materials_Money/Input_Materials_Money'), '3000')
 
